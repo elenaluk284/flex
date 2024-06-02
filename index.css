@@ -1,0 +1,53 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+header {
+    background-color: rgb(186, 186, 186);
+    padding: 16px;
+}
+main {
+    display: flex;
+}
+.main {
+    background-color: bisque;
+    flex-grow: 3;
+    padding: 16px;
+}
+.aside {
+    background-color: rgb(186, 218, 182);
+    flex-grow: 2;
+    padding: 16px;
+}
+.more_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 16px;
+    margin-top: 40px;
+}
+.more {
+    background-color: rgb(195, 195, 105);
+    padding: 16px;
+    flex-grow: 1;
+}
+.more3 {
+    width: 100%;
+}
+footer {
+    background-color: rgb(186, 186, 186);
+    padding: 16px;
+    display: flex;
+    gap: 16px;
+}
+.footer_item {
+    padding: 16px;
+    flex-grow: 1;
+    background-color: #fff;
+}
